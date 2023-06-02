@@ -5,3 +5,8 @@ module.exports.TABLE_COMPANY = 'Company';
 module.exports.TABLE_ROLE = 'Role';
 module.exports.TABLE_USER = 'User';
 module.exports.TABLE_USER_PROFILE = 'UserProfile';
+module.exports.TABLE_REAL_STATE_CLIENT_TYPE = 'RealStateClientType';
+module.exports.TABLE_REAL_STATE_PROPERTY_ATTACHMENT =
+  'RealStatePropertyAttachment';
+module.exports.TABLE_REAL_STATE_CLIENT = 'RealStateClient';
+module.exports.TABLE_REAL_STATE_PROPERTY = 'RealStateProperty';
