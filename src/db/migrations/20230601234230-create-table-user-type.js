@@ -1,5 +1,5 @@
-const { TABLE_USER_TYPE } = require("../utils/constants");
-const BasicSchema = require("./basicModelDefinition");
+const { TABLE_USER_TYPE } = require('../utils/constants');
+const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -17,7 +17,7 @@ module.exports = {
             unique: true,
           },
         }),
-        { transaction }
+        { transaction },
       );
 
       await transaction.commit();
