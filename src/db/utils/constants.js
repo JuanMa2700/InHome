@@ -10,3 +10,7 @@ module.exports.TABLE_REAL_STATE_PROPERTY_ATTACHMENT =
   'RealStatePropertyAttachment';
 module.exports.TABLE_REAL_STATE_CLIENT = 'RealStateClient';
 module.exports.TABLE_REAL_STATE_PROPERTY = 'RealStateProperty';
+module.exports.TABLE_LEASING_CONTRACT = 'LeasingContract';
+module.exports.TABLE_PAYMENT_TYPE = 'PaymentType';
+module.exports.TABLE_PAYMENT = 'Payment';
+module.exports.TABLE_LEASING_CONTRACT_PAYMENT = 'LeasingContractPayment';
