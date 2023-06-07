@@ -14,3 +14,9 @@ module.exports.TABLE_LEASING_CONTRACT = 'LeasingContract';
 module.exports.TABLE_PAYMENT_TYPE = 'PaymentType';
 module.exports.TABLE_PAYMENT = 'Payment';
 module.exports.TABLE_LEASING_CONTRACT_PAYMENT = 'LeasingContractPayment';
+module.exports.TABLE_FEATURE = 'Feature';
+module.exports.TABLE_COMPANY_FEATURE = 'CompanyFeature';
+module.exports.TABLE_PERMISSION = 'Permission';
+module.exports.TABLE_COMPANY_PERMISSION = 'CompanyPermission';
+module.exports.TABLE_COMPANY_ROL_PERMISSION = 'CompanyRolePermission';
+
