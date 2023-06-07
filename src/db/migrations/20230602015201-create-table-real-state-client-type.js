@@ -1,4 +1,6 @@
-const { TABLE_REAL_STATE_CLIENT_TYPE } = require('../utils/constants');
+const {
+  TABLE_REAL_STATE_CLIENT_TYPE,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

@@ -1,4 +1,7 @@
-const { TABLE_PAYMENT_TYPE, TABLE_PAYMENT } = require('../utils/constants');
+const {
+  TABLE_PAYMENT,
+  TABLE_PAYMENT_TYPE,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

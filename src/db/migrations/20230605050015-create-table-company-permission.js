@@ -1,8 +1,8 @@
 const {
   TABLE_COMPANY_PERMISSION,
-  TABLE_COMPANY,
   TABLE_PERMISSION,
-} = require('../utils/constants');
+  TABLE_COMPANY,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

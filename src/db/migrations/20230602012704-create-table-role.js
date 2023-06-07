@@ -2,7 +2,7 @@ const {
   TABLE_ROLE,
   TABLE_USER_TYPE,
   TABLE_COMPANY,
-} = require('../utils/constants');
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

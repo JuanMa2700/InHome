@@ -1,8 +1,8 @@
 const {
   TABLE_COMPANY_FEATURE,
-  TABLE_COMPANY,
   TABLE_FEATURE,
-} = require('../utils/constants');
+  TABLE_COMPANY,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

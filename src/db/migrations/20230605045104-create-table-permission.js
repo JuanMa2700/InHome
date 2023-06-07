@@ -1,8 +1,8 @@
 const {
   TABLE_PERMISSION,
-  TABLE_FEATURE,
   TABLE_USER_TYPE,
-} = require('../utils/constants');
+  TABLE_FEATURE,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

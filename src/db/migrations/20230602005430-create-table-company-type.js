@@ -1,4 +1,4 @@
-const { TABLE_COMPANY_TYPE } = require('../utils/constants');
+const { TABLE_COMPANY_TYPE } = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {
