@@ -20,3 +20,7 @@ module.exports.TABLE_PERMISSION = 'Permission';
 module.exports.TABLE_COMPANY_PERMISSION = 'CompanyPermission';
 module.exports.TABLE_COMPANY_ROL_PERMISSION = 'CompanyRolePermission';
 
+module.exports.USER_TYPE_ID_1 = 1;
+module.exports.USER_TYPE_ID_2 = 2;
+module.exports.USER_TYPE_REAL_STATE_CLIENT = 'REAL_STATE_CLIENT';
+module.exports.USER_TYPE_REAL_STATE_EMPLOYEE = 'REAL_STATE_EMPLOYEE';
