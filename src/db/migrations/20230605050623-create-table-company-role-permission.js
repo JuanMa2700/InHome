@@ -71,5 +71,3 @@ module.exports = {
     }
   },
 };
-
-// comment pending remove
