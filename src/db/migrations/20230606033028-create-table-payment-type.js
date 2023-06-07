@@ -12,7 +12,7 @@ module.exports = {
         TABLE_PAYMENT_TYPE,
         BasicSchema(DataTypes, {
           name: {
-            type: DataTypes.DATE,
+            type: DataTypes.STRING,
             allowNull: false,
           },
         }),
