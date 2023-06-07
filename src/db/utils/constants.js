@@ -10,3 +10,8 @@ module.exports.TABLE_REAL_STATE_PROPERTY_ATTACHMENT =
   'RealStatePropertyAttachment';
 module.exports.TABLE_REAL_STATE_CLIENT = 'RealStateClient';
 module.exports.TABLE_REAL_STATE_PROPERTY = 'RealStateProperty';
+module.exports.TABLE_FEATURE = 'Feature';
+module.exports.TABLE_COMPANY_FEATURE = 'CompanyFeature';
+module.exports.TABLE_PERMISSION = 'Permission';
+module.exports.TABLE_COMPANY_PERMISSION = 'CompanyPermission';
+module.exports.TABLE_COMPANY_ROL_PERMISSION = 'CompanyRolePermission';
