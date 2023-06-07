@@ -1,4 +1,8 @@
-const { TABLE_USER, TABLE_ROLE, TABLE_COMPANY } = require('../utils/constants');
+const {
+  TABLE_USER,
+  TABLE_ROLE,
+  TABLE_COMPANY,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

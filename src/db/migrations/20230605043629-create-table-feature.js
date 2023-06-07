@@ -1,4 +1,4 @@
-const { TABLE_FEATURE } = require('../utils/constants');
+const { TABLE_FEATURE } = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

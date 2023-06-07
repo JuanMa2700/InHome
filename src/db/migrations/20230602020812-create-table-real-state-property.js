@@ -2,7 +2,7 @@ const {
   TABLE_REAL_STATE_PROPERTY,
   TABLE_REAL_STATE_CLIENT,
   TABLE_COUNTRY,
-} = require('../utils/constants');
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

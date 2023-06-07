@@ -1,10 +1,10 @@
+const { TABLE_USER_TYPE } = require('../utils/constants/migrations.const');
 const {
-  TABLE_USER_TYPE,
   USER_TYPE_ID_1,
+  USER_TYPE_REAL_STATE_EMPLOYEE,
   USER_TYPE_ID_2,
   USER_TYPE_REAL_STATE_CLIENT,
-  USER_TYPE_REAL_STATE_EMPLOYEE,
-} = require('../utils/constants');
+} = require('../utils/constants/seeders.const');
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {

@@ -1,8 +1,8 @@
 const {
-  TABLE_LEASING_CONTRACT,
-  TABLE_PAYMENT,
   TABLE_LEASING_CONTRACT_PAYMENT,
-} = require('../utils/constants');
+  TABLE_PAYMENT,
+  TABLE_LEASING_CONTRACT,
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {

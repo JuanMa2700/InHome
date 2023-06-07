@@ -1,8 +1,8 @@
 const {
+  TABLE_LEASING_CONTRACT,
   TABLE_REAL_STATE_CLIENT,
   TABLE_REAL_STATE_PROPERTY,
-  TABLE_LEASING_CONTRACT,
-} = require('../utils/constants');
+} = require('../utils/constants/migrations.const');
 const BasicSchema = require('./basicModelDefinition');
 
 module.exports = {
