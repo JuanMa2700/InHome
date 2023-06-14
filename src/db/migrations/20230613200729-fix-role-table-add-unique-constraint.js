@@ -7,18 +7,12 @@ module.exports = {
     const transaction = await queryInterface.sequelize.transaction();
 
     try {
-      await queryInterface
-        .addConstraint(TABLE_ROLE, {
-          fields: ['idUserType', 'name'],
-          type: 'unique',
-          name: `${TABLE_ROLE}_${['idUserType', 'name'].join('_')}_key`,
-          logging: console.log,
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      await queryInterface.addConstraint(TABLE_ROLE, {
+        fields: ['idUserType', 'name'],
+        type: 'unique',
+        name: `${TABLE_ROLE}_${['idUserType', 'name'].join('_')}_key`,
+      });
 
-      console.log('after addConstrain');
       await transaction.commit();
     } catch (error) {
       await transaction.rollback();

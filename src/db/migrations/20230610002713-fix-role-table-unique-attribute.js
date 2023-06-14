@@ -7,14 +7,11 @@ module.exports = {
 
     const transaction = await queryInterface.sequelize.transaction();
 
-    console.log('before unique');
-
     try {
       await queryInterface.removeConstraint(
         TABLE_ROLE,
         `${TABLE_ROLE}_name_key`,
       );
-      console.log('unique executed');
 
       await transaction.commit();
     } catch (error) {
