@@ -1,4 +1,5 @@
-require("dotenv").config();
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const basicConfig = {
   username: process.env.SEQ_USER,
@@ -6,7 +7,7 @@ const basicConfig = {
   database: process.env.SEQ_DB,
   port: process.env.SEQ_PORT,
   host: process.env.SEQ_HOST,
-  dialect: "postgres",
+  dialect: 'postgres',
   logging: false,
 };
 
