@@ -1,3 +1,4 @@
+// @ts-nocheck
 module.exports.USER_TYPE_ID_1 = 1;
 module.exports.USER_TYPE_ID_2 = 2;
 module.exports.USER_TYPE_REAL_STATE_CLIENT = 'REAL_STATE_CLIENT';
@@ -116,6 +117,39 @@ module.exports.USER_PROFILE_1 = {
   email: 'admin@gmail.com',
   phone: '3456785543',
   avatar: null,
+  createdAt: new Date(),
+  updatedAt: new Date(),
+};
+module.exports.PAYMENT_TYPE_1 = {
+  id: 1,
+  name: 'RENT_PAYMENT',
+  createdAt: new Date(),
+  updatedAt: new Date(),
+};
+
+module.exports.REAL_STATE_CLIENT_TYPE_1 = {
+  id: 1,
+  name: 'PROPERTY_BUYER',
+
+  createdAt: new Date(),
+  updatedAt: new Date(),
+};
+
+module.exports.REAL_STATE_CLIENT_TYPE_2 = {
+  id: 2,
+  name: 'REAL_STATE_SELLER',
+  createdAt: new Date(),
+  updatedAt: new Date(),
+};
+module.exports.REAL_STATE_CLIENT_TYPE_3 = {
+  id: 3,
+  name: 'REAL_STATE_LANDLORD',
+  createdAt: new Date(),
+  updatedAt: new Date(),
+};
+module.exports.REAL_STATE_CLIENT_TYPE_4 = {
+  id: 4,
+  name: 'IMMOVABLE_LESSEE',
   createdAt: new Date(),
   updatedAt: new Date(),
 };
