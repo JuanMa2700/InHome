@@ -1,9 +1,9 @@
 const { TABLE_COMPANY } = require('../utils/constants/migrations.const');
-const { COMPANY_1_SEED } = require('../utils/constants/seeders.const');
+const { COMPANY_1 } = require('../utils/constants/seeders.const');
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkInsert(TABLE_COMPANY, [COMPANY_1_SEED]);
+    await queryInterface.bulkInsert(TABLE_COMPANY, [COMPANY_1]);
 
     const data = (
       await queryInterface.sequelize.query(
@@ -21,7 +21,7 @@ module.exports = {
 
   down: (queryInterface, Sequelize) => {
     return queryInterface.bulkDelete(TABLE_COMPANY, {
-      id: [COMPANY_1_SEED.id],
+      id: [COMPANY_1.id],
     });
   },
 };
