@@ -2,6 +2,7 @@ import { Model } from 'sequelize';
 import BasicSchema = require('../migrations/basicModelDefinition');
 import { TABLE_PAYMENT } from '../utils/constants/migrations.const';
 import { PaymentType } from './PaymentType';
+import { LeasingContractPayment } from './LeasingContractPayment';
 import { BasicSchemaModel, ModelsType } from './types';
 
 export interface PaymentAttributes extends BasicSchemaModel {
@@ -13,6 +14,7 @@ export interface PaymentAttributes extends BasicSchemaModel {
   reference: string;
   attachmentUrl?: string;
   PaymentType?: PaymentType;
+  LeasingContractPayments?: LeasingContractPayment[];
 }
 
 export class Payment extends Model implements PaymentAttributes {
@@ -23,11 +25,15 @@ export class Payment extends Model implements PaymentAttributes {
   idPaymentType: number;
   reference: string;
   attachmentUrl?: string;
-  PaymentType?: PaymentType;
+  PaymentType?: PaymentType; 
+  LeasingContractPayments?: LeasingContractPayment[];
 
   static associate = (models: ModelsType) => {
     Payment.belongsTo(models.PaymentType, {
       foreignKey: 'idPaymentType',
+    });
+    Payment.hasMany(models.LeasingContractPayment, {
+      foreignKey: 'idPayment',
     });
   };
 }

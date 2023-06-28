@@ -6,6 +6,12 @@ import { Feature } from './Feature';
 import { Payment } from './Payment';
 import { PaymentType } from './PaymentType';
 import { UserType } from './UserType';
+import { RealStateClientType } from './RealStateClientType';
+import { RealStateClient } from './RealStateClient';
+import { RealStateProperty } from './RealStateProperty';
+import { RealStatePropertyAttachment } from './RealStatePropertyAttachment';
+import { LeasingContract } from './LeasingContract';
+import { LeasingContractPayment } from './LeasingContractPayment';
 
 export type BasicSchemaModel = {
   id?: number;
@@ -22,4 +28,10 @@ export type ModelsType = {
   UserType: typeof UserType;
   Company: typeof Company;
   Country: typeof Country;
+  RealStateClientType: typeof RealStateClientType;
+  RealStateClient: typeof RealStateClient;
+  RealStateProperty: typeof RealStateProperty;
+  RealStatePropertyAttachment: typeof RealStatePropertyAttachment;
+  LeasingContract: typeof LeasingContract;
+  LeasingContractPayment: typeof LeasingContractPayment;
 };
